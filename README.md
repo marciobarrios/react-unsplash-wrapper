@@ -1,7 +1,8 @@
 # react-unsplash-wrapper
 A tiny React component to effortless use images from [Unsplash](https://unsplash.com/) with tons of possibilities.
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![npm version](https://img.shields.io/npm/v/react-unsplash-wrapper.svg)](https://www.npmjs.com/package/react-unsplash-wrapper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Why?
 Because I love Unsplash pics and I wanted to use them in my React prototypes with no effort. For avatars, placeholders or Hero images.
