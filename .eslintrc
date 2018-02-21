@@ -2,6 +2,9 @@
   "parser": "babel-eslint",
   "extends": ["unobtrusive", "unobtrusive/react"],
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
   }
 }

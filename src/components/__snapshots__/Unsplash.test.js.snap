@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unsplash renders without crashing 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/random/1080x720)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 720,
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": 1080,
+    }
+  }
+/>
+`;
+
+exports[`Unsplash shows a placeholder that expands to its parent 1`] = `
+<div
+  style={
+    Object {
+      "height": 400,
+      "position": "relative",
+      "width": 400,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundImage": "url(//source.unsplash.com/random/1080x720)",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "bottom": 0,
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "left": 0,
+        "margin": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Unsplash shows a placeholder with content inside and custom styles 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/random/1080x720)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 720,
+      "justifyContent": "center",
+      "lineHeight": 2,
+      "margin": "auto",
+      "width": 1080,
+    }
+  }
+>
+  <h1
+    style={
+      Object {
+        "color": "white",
+        "textShadow": "1px 1px 2px black",
+      }
+    }
+  >
+    Super awesome title
+  </h1>
+  <p>
+    With React Unsplash Wrapper is really easy to create a Hero image.
+  </p>
+</div>
+`;
+
+exports[`Unsplash shows a placeholder with custom size and keywords 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/800x200/?beach,%20palms,%20sea)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 200,
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": 800,
+    }
+  }
+/>
+`;
+
+exports[`Unsplash shows a placeholder with image, size and random image 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/random/800x200)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 200,
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": 800,
+    }
+  }
+/>
+`;
+
+exports[`Unsplash shows a random image 1`] = `
+<img
+  src="//source.unsplash.com/random/1080x720"
+  style={
+    Object {
+      "height": 720,
+      "width": 1080,
+    }
+  }
+/>
+`;
+
+exports[`Unsplash shows an avatar 1`] = `
+<img
+  src="//source.unsplash.com/64x64/?face"
+  style={
+    Object {
+      "height": 64,
+      "width": 64,
+    }
+  }
+/>
+`;
