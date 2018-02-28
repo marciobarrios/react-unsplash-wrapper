@@ -1,6 +1,6 @@
 {
   "name": "react-unsplash-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny React component to effortless use placeholder images from Unsplash",
   "main": "dist/index.js",
   "files": [
