@@ -90,7 +90,7 @@ exports[`Unsplash shows a placeholder with custom size and keywords 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundImage": "url(//source.unsplash.com/800x200/?beach,%20palms,%20sea)",
+      "backgroundImage": "url(//source.unsplash.com/800x200/?beach,palms,sea)",
       "backgroundRepeat": "no-repeat",
       "backgroundSize": "cover",
       "display": "flex",
