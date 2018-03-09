@@ -43,7 +43,7 @@ const generateUrl = ({
   if (!username && collectionId) url.push(COLLECTION).push(collectionId)
   if (!username && !collectionId && !keywords) url.push(RANDOM)
   url.push(`${width}x${height}`)
-  if (keywords) url.push(`?${keywords}`)
+  if (keywords) url.push(`?${keywords.replace(/\s/g, '')}`)
 
   return url.join("/")
 }
