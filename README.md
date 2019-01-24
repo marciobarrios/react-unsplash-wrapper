@@ -45,9 +45,10 @@ const ImgPlaceholder = () => (
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
 | children | node | - | Used only when `img` is false. Anything that can be rendered: numbers, strings, elements or an array |
-| collectionId | number | - | Collection id to fetch images from |
-| username | string | - | Username to fetch images from |
-| keywords | string | - | Keywords to find an image, separated by comma |
+| collectionId | number | - | Random image from a specific collection |
+| photoId | number | - | photo image id to show |
+| username | string | - | Random image from a specific user |
+| keywords | string | - | Keywords to find a random image, separated by comma |
 | expand | boolean | false | To expand the image to a parent container (needs `position: relative`) |
 | fixed | boolean | false | To show the daily picture from Unsplash |
 | img | boolean | false | Shows an image instead of a container with CSS background |

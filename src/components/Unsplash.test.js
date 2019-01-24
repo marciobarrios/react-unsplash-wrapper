@@ -60,4 +60,21 @@ describe("Unsplash", () => {
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  it("shows a random image from a user", () => {
+    const tree = renderer.create(<Unsplash username="erondu" />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  it("shows a random image from a collection", () => {
+    const tree = renderer.create(<Unsplash collectionId={190727} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  it("shows a specific photo id", () => {
+    const tree = renderer
+      .create(<Unsplash photoId="WLUHO9A_xik" />)
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })

@@ -32,6 +32,7 @@ const generateUrl = ({
   username,
   width,
   height,
+  photoId,
   collectionId,
   keywords,
   fixed
@@ -39,17 +40,22 @@ const generateUrl = ({
   const url = [PATH]
 
   if (fixed) return url.push(DAILY).join("/")
-  if (username) url.push(USER).push(username)
-  if (!username && collectionId) url.push(COLLECTION).push(collectionId)
-  if (!username && !collectionId && !keywords) url.push(RANDOM)
+
+  if (username) url.push(USER, username)
+  if (!username && collectionId) url.push(COLLECTION, collectionId)
+  if (!username && !collectionId && photoId) url.push(photoId)
+  if (!username && !photoId && !collectionId && !keywords) url.push(RANDOM)
+
   url.push(`${width}x${height}`)
-  if (keywords) url.push(`?${keywords.replace(/\s/g, '')}`)
+
+  if (keywords) url.push(`?${keywords.replace(/\s/g, "")}`)
 
   return url.join("/")
 }
 
 const Unsplash = ({
   children,
+  photoId,
   collectionId,
   username,
   expand,
@@ -70,6 +76,7 @@ const Unsplash = ({
     generateUrl({
       username,
       collectionId,
+      photoId,
       keywords,
       fixed,
       width: urlWidth,

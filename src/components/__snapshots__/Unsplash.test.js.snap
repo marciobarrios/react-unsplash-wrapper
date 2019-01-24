@@ -135,6 +135,63 @@ exports[`Unsplash shows a random image 1`] = `
 />
 `;
 
+exports[`Unsplash shows a random image from a collection 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/collection/190727/1080x720)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 720,
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": 1080,
+    }
+  }
+/>
+`;
+
+exports[`Unsplash shows a random image from a user 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/user/erondu/1080x720)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 720,
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": 1080,
+    }
+  }
+/>
+`;
+
+exports[`Unsplash shows a specific photo id 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundImage": "url(//source.unsplash.com/WLUHO9A_xik/1080x720)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 720,
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": 1080,
+    }
+  }
+/>
+`;
+
 exports[`Unsplash shows an avatar 1`] = `
 <img
   src="//source.unsplash.com/64x64/?face"
