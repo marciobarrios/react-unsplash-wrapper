@@ -1,8 +1,11 @@
 # react-unsplash-wrapper
-A tiny React component to effortless use images from [Unsplash](https://unsplash.com/) with tons of possibilities.
 
 [![npm version](https://img.shields.io/npm/v/react-unsplash-wrapper.svg)](https://www.npmjs.com/package/react-unsplash-wrapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+A tiny React component to effortless use images from [Unsplash](https://unsplash.com/) with tons of possibilities.
+
+You can play with `react-unsplash-wrapper` in a [CodeSandbox](https://codesandbox.io/s/5wx6j02034).
 
 ## Why?
 Because I love Unsplash pics and I wanted to use them in my React prototypes with no effort. For avatars, placeholders or Hero images.
@@ -30,6 +33,8 @@ const ImgPlaceholder = () => (
   </Unsplash>
 )
 ```
+
+**The easiest way to play with `react-unsplash-wrapper` is with a live example in CodeSandbox, I prepared one for you with lots of examples: [https://codesandbox.io/s/5wx6j02034](https://codesandbox.io/s/5wx6j02034)**
 
 `<Unsplash />` gives you some convenient defaults:
 
