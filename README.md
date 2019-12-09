@@ -5,7 +5,7 @@
 
 A tiny React component to effortless use images from [Unsplash](https://unsplash.com/) with tons of possibilities.
 
-You can play with `react-unsplash-wrapper` in a [CodeSandbox](https://codesandbox.io/s/5wx6j02034).
+You can play with `react-unsplash-wrapper` in a [CodeSandbox](https://codesandbox.io/s/react-unsplash-wrapper-4l2kw).
 
 ## Why?
 Because I love Unsplash pics and I wanted to use them in my React prototypes with no effort. For avatars, placeholders or Hero images.
