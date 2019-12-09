@@ -30,6 +30,9 @@
   },
   "homepage": "https://github.com/marciobarrios/react-unsplash-wrapper#readme",
   "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
@@ -42,7 +45,6 @@
     "eslint-plugin-react": "^7.17.0",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
-    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-test-renderer": "^16.12.0"
   },
